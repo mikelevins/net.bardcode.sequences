@@ -1,9 +1,8 @@
 # net.bardcode.sequences
-### _Your Name <your.name@example.com>_
+### _m ikel evins <mikel@evins.net>_
 
-This is a project to do ... something.
+Some simple handy utilities for working with sequences.
 
 ## License
 
-Specify license here
-
+Apache 2.0
