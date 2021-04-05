@@ -1,5 +1,5 @@
 # net.bardcode.sequences
-### _m ikel evins <mikel@evins.net>_
+### _mikel evins <mikel@evins.net>_
 
 Some simple handy utilities for working with sequences.
 
