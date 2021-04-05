@@ -29,8 +29,8 @@
 ;;; (empty? sequence) => Boolean
 ;;; ---------------------------------------------------------------------
 
-(defmethod empty? ((sequence cl:null)) t)
-(defmethod empty? ((sequence cl:sequence))(cl:zerop (cl:length sequence)))
+(defmethod empty? ((sequence cl:null) &key &allow-other-keys) t)
+(defmethod empty? ((sequence cl:sequence) &key &allow-other-keys)(cl:zerop (cl:length sequence)))
 
 
 ;;; (filter predicate sequence) => sequence'
